@@ -22,6 +22,9 @@
                 <li class="nav-item">
                     <a href="updatetodb.php" class="nav-link <?php echo (basename($_SERVER['PHP_SELF']) == "updatetodb.php" ? "active" : "") ?>">Update Encrypt/Decrypt to DB</a>
                 </li>
+                <li class="nav-item">
+                    <a href="querywithudf.php" class="nav-link <?php echo (basename($_SERVER['PHP_SELF']) == "querywithudf.php" ? "active" : "") ?>">Query with UDF</a>
+                </li>
             </ul>
         </div>
 
