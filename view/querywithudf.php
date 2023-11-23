@@ -23,7 +23,7 @@ include("../partial/header.php");
                         <div class="col-lg-6">
                             <div class="card">
                                 <div class="card-header">
-                                    <h5 class="card-title m-0">Form Insert Data Encrypt</h5>
+                                    <h5 class="card-title m-0">Form Query UDF</h5>
                                 </div>
                                 <div class="card-body">
                                     <div class="form-group">

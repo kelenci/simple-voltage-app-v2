@@ -4,3 +4,6 @@
       </div>
       <strong>Copyright &copy; 2023 <a href="https://www.truslogic.co.id/" target="_blank">Truslogic Mitra Teknologi</a></strong>
   </footer>
+
+  <!-- Bootstrap 4 -->
+  <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>

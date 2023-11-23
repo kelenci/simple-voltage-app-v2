@@ -24,18 +24,14 @@ if (isset($_POST['query_status'])) {
         } else {
             $error = pg_last_error($db);
 
-            // you need to adapt this regex
             if (preg_match('/duplicate/i', $error)) {
                 echo "this value already exists";
             }
-            // you need to adapt this regex
             elseif (preg_match('/relation/i', $error)) {
                 echo '<script language="javascript">';
                 echo 'alert("message successfully sent")';
                 echo '</script>';
-            } else {
-                // different error
-            }
+            } 
         }
     }
 }

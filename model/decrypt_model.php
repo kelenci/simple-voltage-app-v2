@@ -2,6 +2,7 @@
 
 function decrypt($fieldname, $format, $data)
 {
+
     $curl = curl_init();
 
     curl_setopt_array($curl, array(
@@ -25,7 +26,7 @@ function decrypt($fieldname, $format, $data)
         }',
         CURLOPT_HTTPHEADER => array(
             'Content-Type: application/json',
-            'Authorization: VSAuth vsauth_method="sharedSecret",vsauth_data="bGludXgxMjM=",vsauth_identity_ascii="user@mailserver.lab.tmt",vsauth_version="200"'
+            'Authorization: VSAuth vsauth_method="sharedSecret",vsauth_data="dm9sdGFnZTEyMw==",vsauth_identity_ascii="user@mailserver.lab.tmt",vsauth_version="200"'
         ),
     ));
 
